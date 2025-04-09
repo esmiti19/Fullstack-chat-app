@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-rgb: 59, 130, 246; /* This is blue-500 in Tailwind's default palette */
+}
+
+[data-theme="dark"] {
+  --primary-rgb: 96, 165, 250; /* This is blue-400 in Tailwind's default palette */
+}
